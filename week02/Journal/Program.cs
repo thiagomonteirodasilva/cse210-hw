@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    // Exceeding requirement: a prompt asking the name of the user
+    // Exceeding requirement: a prompt asking the name of the user to display it on the main menu. If the user leaves it blank, the application won't continue
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Journal Project.");
