@@ -1,6 +1,6 @@
 public class Car
 {
-  public string model;
-  public string brand;
-  public int year;
+  public string _model;
+  public string _brand;
+  public int _year;
 }

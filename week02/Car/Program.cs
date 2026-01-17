@@ -6,10 +6,10 @@ class Program
   {
     Console.WriteLine("Hello World Car");
     Car car = new Car();
-    car.model = "Focus";
-    car.brand = "Ford";
-    car.year = 2019;
+    car._model = "Focus";
+    car._brand = "Ford";
+    car._year = 2019;
 
-    Console.WriteLine($"Brand: {car.brand}, model: {car.model}, year: {car.year}");
+    Console.WriteLine($"Brand: {car._model}, model: {car._brand}, year: {car._year}");
   }
 }
